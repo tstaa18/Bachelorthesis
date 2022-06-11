@@ -116,7 +116,7 @@ while(Serial.available() > 0){
             {
               unsigned long currentMillis = millis();
               unsigned long interval = 3750; 
-                if (currentMillis - previousMillis > interval) //Repeat every 1.5th second to be equal to 40 bpm
+                if (currentMillis - previousMillis > interval) //Repeat every 3,75th second to be equal to 16 bpm
                     {
                         previousMillis = currentMillis;
                         emotionTaskSad();
