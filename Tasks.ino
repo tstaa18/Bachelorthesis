@@ -63,7 +63,8 @@ void emotionTaskHappy(){
 - Regular, moderately deep and slow breathing through the nose and with minimal thoracic tension, tremors and sighs
 - Diaphragmatic and thoracic
 Breath fullest lower chambers, and then fullest top chamber.
-Below code has been provided by Ulrich and Troels from their study: ""
+Below code has been provided by Ulrich and Troels from their study: "Exploring the Interaction Kinesics of a Soft
+Social Robot"
 fill bottom chambers, then top chamber. Make it breath so it looks relaxing
   */
 
@@ -109,7 +110,7 @@ fill bottom chambers, then top chamber. Make it breath so it looks relaxing
    More variation / randomisation of sighing
     */
 
-  /*Generate a random number between 1 and 10: Make it seem like the robot is sighing but randomized*/
+  /*Generate a random number between 500 and 3000: Make it seem like the robot is sighing but randomized*/
   int random_num = random(500, 3000);
    
     onPump1();
@@ -199,9 +200,6 @@ Low chamber fully blown
 - Thoracic
 - Fast, irregular, rather shallow breathing
 - Much thoracic tension, some tremors and minimal sighs
-Below code has been provided by Ulrich and Troels from their study: ""
-the breathing rate Troels and Ulrich found to match high arousal 40 BPM)
-
       */
     
     onPump1();
